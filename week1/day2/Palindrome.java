@@ -32,14 +32,11 @@ public class Palindrome {
 	
 	
 		
- if(input==0)
+		if(input<=0)
 	{
 		System.out.println(input+ " is not palindromeeee");
 	}
-		else if(input<0)
-		{
-			System.out.println(input+ " is not palindromey");
-		}
+		
 		else if(output==input)
 	{
 		System.out.println(input+ " is Palindrome");
@@ -55,6 +52,6 @@ public class Palindrome {
 
 public static  void main(String[] args) {
 	Palindrome obj = new Palindrome();
-obj.palindromeCalc(7007);
+obj.palindromeCalc(1);
 }
 }
