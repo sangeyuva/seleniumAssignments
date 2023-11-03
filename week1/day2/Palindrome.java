@@ -14,7 +14,7 @@ public class Palindrome {
 		
 		 //String str = Integer.toString(input);
 		/// inputLength = str.length();
-		for (int i=input;  i!=0; i=i/10) {
+		for (int i=input;  i!=0; i=i/10) { //3434.3
 			
 		 //12345 --> 12345/10 = 1234 reverse num = input * 10 + reminder
 			 reminder = i % 10;
