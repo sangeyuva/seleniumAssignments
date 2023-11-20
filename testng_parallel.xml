@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Leads" thread-count="2" parallel="tests">
+  <test name="User CRUD ">
+    <classes>
+     <class name="week5.day2.TestNG.CreateLead"/>
+      <class name="week5.day2.TestNG.MergeLead"/>
+     
+    </classes>
+    </test> <!-- User CRUD -->
+    <test name="Leads Account details">
+    <classes>
+    <class name="week5.day2.TestNG.EditLead"/>
+    <class name="week5.day2.TestNG.DeleteLead"/>    
+      
+       </classes>
+       </test> <!-- Leads Account details -->  
+</suite>
+ <!-- Leads -->
