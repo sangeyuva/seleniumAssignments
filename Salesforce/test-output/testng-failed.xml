@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.leaftaps.testcases.DeleteIndividuals">
+        <methods>
+          <include name="postCondition"/>
+          <include name="startTestCase"/>
+          <include name="DeleteIndividuals" invocation-numbers="0"/>
+          <include name="setUpClass"/>
+          <include name="startReport"/>
+          <include name="preCondition"/>
+          <include name="setValue"/>
+          <include name="tearDownClass"/>
+          <include name="endResult"/>
+        </methods>
+      </class> <!-- com.leaftaps.testcases.DeleteIndividuals -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
