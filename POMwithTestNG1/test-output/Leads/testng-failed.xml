@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Leads]">
+  <test thread-count="5" name="Create Lead(failed)">
+    <classes>
+      <class name="testCases.RunnerLogin">
+        <methods>
+          <include name="runLoginTestcase"/>
+          <include name="postCondition"/>
+          <include name="setValues"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- testCases.RunnerLogin -->
+    </classes>
+  </test> <!-- Create Lead(failed) -->
+</suite> <!-- Failed suite [Leads] -->
