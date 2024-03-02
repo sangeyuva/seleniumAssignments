@@ -3,19 +3,23 @@ package javaChallenge;
 public class PhrasePanlindromTraverseLoop {
 
 	public void reversePhrase(String s1) {
-		String nstr = "";
+		String reverse = "";
 		String ss = s1.replaceAll("[,:,\\s]", "");
 		System.out.println(ss);
+//		int length = ss.length();
+//		System.out.println(length);
+		
 
-		for (int i = 0; i < ss.length(); i++) {
+
+		for (int i = ss.length()-1; i>=0 ; i--) {
 			char ch = ss.charAt(i);
-			nstr = ch + nstr;
+			reverse = reverse + ch;
 
 		}
 
-		System.out.println(nstr);
+		System.out.println(reverse);
 
-		if (ss.equalsIgnoreCase(nstr)) {
+		if (ss.equalsIgnoreCase(reverse)) {
 			System.out.println("Its palindrome");
 		}
 
@@ -28,7 +32,7 @@ public class PhrasePanlindromTraverseLoop {
 	public static void main(String[] args) {
 
 		PhrasePanlindromTraverseLoop mm = new PhrasePanlindromTraverseLoop();
-		mm.reversePhrase("");
+		mm.reversePhrase("madam");
 
 	}
 

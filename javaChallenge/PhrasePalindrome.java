@@ -11,11 +11,10 @@ public class PhrasePalindrome {
  String	s = "A man, a plan, a canal: Panama";
  String ss = s.replaceAll("[,:,\\s]", "");
  System.out.println(ss);
- StringBuilder input1 = new StringBuilder();
- input1.append(ss);
- StringBuilder ss2 = input1.reverse();
- System.out.println(ss2);
- String mm = ss2.toString();
+ StringBuilder input1 = new StringBuilder(ss);
+ StringBuilder reverse = input1.reverse();
+ System.out.println(reverse);
+ String mm = reverse.toString();
  
  
  
